@@ -5,6 +5,8 @@
 #include <fstream>
 #include "nlohmann/json.hpp"
 
+// a basic pokemon data fetcher
+
 // A callback function to store the HTTP response data in a string
 size_t WriteCallback(void* contents, size_t size, size_t nmemb, std::string* data) {
     size_t totalSize = size * nmemb;
